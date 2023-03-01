@@ -1,0 +1,38 @@
+.header {
+  height: 72px;
+  padding: 16px 0;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      color: #e75626;
+      font-family: "Bebas Neue";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 120%;
+    }
+  }
+
+  &__logo {
+    width: 199px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", cursive;
+    background: #5a5a5a;
+    border: 1px dashed #c7c7c7;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}

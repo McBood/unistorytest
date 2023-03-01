@@ -1,0 +1,38 @@
+$main-color: #e75626;
+
+.registration {
+  width: 420px;
+
+  h3 {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: $main-color;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #ffffff;
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+  }
+  .input {
+    margin-bottom: 18px;
+
+    &__sub {
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.unactive {
+  transition: 0.5s;
+  opacity: 0.5;
+}

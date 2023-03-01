@@ -1,0 +1,35 @@
+$main-color: #e75626;
+
+.modal {
+  &__title {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: $main-color;
+    text-align: center;
+    margin-bottom: 29px;
+  }
+
+  &__description {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    width: 320px;
+    color: #ffffff;
+
+    a {
+      color: $main-color;
+      text-decoration: none;
+    }
+  }
+
+  &__btn {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+}

@@ -1,0 +1,65 @@
+.top {
+  margin-top: 200px;
+  display: flex;
+}
+
+.content {
+  width: 1010px;
+  position: relative;
+
+  &__title {
+    margin-bottom: 45px;
+    min-width: 1008px;
+    h1,
+    p {
+      font-family: "Bebas Neue";
+      display: inline;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 120px;
+      line-height: 100%;
+      color: #ffffff;
+      white-space: pre-wrap;
+    }
+
+    &.-transparent {
+      color: transparent;
+      -webkit-text-stroke: 0.1px white;
+      text-shadow: none;
+    }
+  }
+
+  &__before {
+    position: absolute;
+    top: -57px;
+    left: 663px;
+  }
+
+  &__description {
+    width: 421px;
+
+    p {
+      font-family: "Avenir Next Cyr";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 1px;
+      color: #ffffff;
+      font-weight: normal;
+    }
+  }
+
+  &__planet {
+    position: absolute;
+    top: -155px;
+    left: 750px;
+  }
+
+  &__img {
+    position: absolute;
+    top: -160px;
+    left: 555px;
+    z-index: -1;
+  }
+}

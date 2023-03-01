@@ -1,0 +1,76 @@
+.list {
+  h3 {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: #ffffff;
+    padding-bottom: 40px;
+  }
+
+  &__block::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  &__block::-webkit-scrollbar-track {
+    background-color: #ffffff;
+  }
+
+  &__block::-webkit-scrollbar-thumb {
+    background-color: #e75626;
+  }
+
+  &__block {
+    min-width: 100%;
+    max-height: 665px;
+    overflow-y: scroll;
+
+    table {
+      height: 200px;
+      min-width: 90%;
+      border-collapse: collapse;
+      color: #ffffff;
+
+      td,
+      th {
+        text-align: left;
+        padding: 16px 8px;
+      }
+
+      td {
+        font-family: "Avenir Next Cyr", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #ffffff;
+        cursor: pointer;
+
+        img {
+          cursor: pointer;
+        }
+      }
+      tr.myUser {
+        &:hover {
+          opacity: 1;
+        }
+        td {
+          color: #e75626;
+        }
+      }
+      tr {
+        border-bottom: 1px solid #ffffff;
+        min-width: 100%;
+        &:hover {
+          opacity: 0.7;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+  .xmark {
+    text-align: center;
+    padding: 16px 0px;
+  }
+}

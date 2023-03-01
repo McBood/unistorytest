@@ -1,0 +1,21 @@
+.input {
+  width: 100%;
+
+  input {
+    padding: 12px 12px 12px 18px;
+    width: 100%;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    background: transparent;
+    color: #ffffff;
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    outline: none;
+
+    &:focus {
+      border: 1px solid #e75626;
+    }
+  }
+}

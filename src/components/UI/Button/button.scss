@@ -1,0 +1,15 @@
+.btn {
+  border: none;
+  border-radius: 30px;
+  background-color: #e75626;
+  padding: 10px 24px 7px;
+  font-size: 18px;
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #be3b10;
+    transition: 0.5s;
+  }
+}

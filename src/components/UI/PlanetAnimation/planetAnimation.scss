@@ -1,0 +1,30 @@
+svg {
+  z-index: 2;
+  background: transparent;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  circle {
+    stroke-dasharray: 1541;
+    stroke-dashoffset: 1541;
+    stroke-linecap: round;
+    animation: round-animation 5s linear infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform: rotate(-90deg);
+    transform-origin: center;
+  }
+}
+
+@keyframes round-animation {
+  0% {
+    stroke-dashoffset: 1541;
+  }
+  100% {
+    stroke-dashoffset: 760;
+  }
+}

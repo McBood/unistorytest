@@ -1,0 +1,40 @@
+.planetParams {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    display: flex;
+    align-items: center;
+
+    span {
+      font-family: "Bebas Neue";
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 120%;
+      color: #171719;
+      margin-right: 10px;
+    }
+    &.-outer {
+      display: grid;
+      place-items: center;
+      width: 12px;
+      height: 12px;
+      background: #ffffff;
+      border-radius: 50%;
+      box-shadow: -2px -2px 6px rgba(50, 50, 50, 0.25),
+        2px 2px 6px rgba(50, 50, 50, 0.25);
+    }
+
+    &.-inner {
+      width: 6px;
+      height: 6px;
+      background: #e75626;
+      border-radius: 50%;
+    }
+  }
+}
